@@ -737,7 +737,6 @@
   <block id="1222cf807490df82fd7e0146eb6798c1" category="paragraph">メンテナンス時間がアナウンスされると、対象のノードのパートナーノードがテイクオーバーを実行します。メンテナンスが完了すると、ギブバックが開始されます。ギブバックが完了すると、 HA ペアは正常な状態に戻ります。この問題が発生しない場合は、ネットアップサポートにお問い合わせください。メンテナンスイベントの対象は、 HA ペアの VM の 1 つです。通常、どちらのノードも比較的短時間です。</block>
   <block id="1355c3042f61af06b4a61506de6e8ad1" category="paragraph">Cloud Volumes ONTAP 非継続的可用性を備えた CIFS 共有を使用する CIFS / SMB クライアントでは、テイクオーバーの発生時と、セッションで使用しているアグリゲートがアグリゲートのホームノードにギブバックされたときに、セッションが失われます。これは、 CIFS / SMB プロトコル自体の制限事項です。テイクオーバーやギブバックで発生する可能性のある問題を回避するために、サードパーティ製品の使用が必要になる場合があります。詳しくは、ネットアップサポートにお問い合わせください。</block>
   <block id="8e47e9575e2300fd877f61160058d7c0" category="sidebar">このリリースノートでは、Cloud Volumes ONTAP 9.15.0の新機能、制限事項、および既知の問題について説明します。</block>
-  <block id="3aecd779578c661d895e83c1e9e7274c" category="sidebar">Cloud Volumes ONTAP 9.15.0リリースノート</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始する</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="8efc36afc2e7202a9c9bda00b8e8a75d" category="sidebar">ライセンスの概要</block>
@@ -751,7 +750,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetAppコミュニティ</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">リリースノートのホーム</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">既知の制限事項</block>
@@ -760,4 +758,7 @@
   <block id="1fff298355326f8c77bd77059a41c1a2" category="sidebar">Azure の制限事項</block>
   <block id="9a3a0c4b2afbb088e029484d4b34ba8b" category="sidebar">Google Cloud の制限事項</block>
   <block id="c3320c3457dfdfbada4a611a68854ea6" category="cell">サポート対象外</block>
+  <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Azure VM拡張機能の使用に関する制限事項</block>
+  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAPでは、Azure Virtual Machine（VM）拡張機能と導入環境内のVMアプリケーションはサポートされません。AzureでVM拡張機能を使用してCloud Volumes ONTAPを使用すると、運用に遅延が発生するため、NetAppではそれらを回避することを推奨</block>
+  <block id="30f90a351fdc853ffe232763d3200b8b" category="sidebar">Cloud Volumes ONTAP 9.15.0リリースノート</block>
 </blocks>
