@@ -562,4 +562,4 @@ HAペアはAzureマネージドディスクを使用します。次のディス�
 
 == サポートされている地域
 
-Azureリージョンのサポートについては、を参照してください https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。
+Azureリージョンのサポートについては、を参照してください https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volume グローバルリージョン"^]。
